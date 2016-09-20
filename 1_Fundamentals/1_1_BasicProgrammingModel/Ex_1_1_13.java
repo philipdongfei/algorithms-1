@@ -1,5 +1,3 @@
-package ch_1_1;
-
 /**
  * 1.1.13 Write a code fragment to print the transposition (rows and columns changed)
  * of a two-dimensional array with M rows and N columns.

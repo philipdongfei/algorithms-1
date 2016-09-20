@@ -1,5 +1,3 @@
-package ch_1_1;
-
 /**
  * 1.1.11 Write a code fragment that prints the contents of a two-dimensional boolean
  * array, using * to represent true and a space to represent false . Include row and column

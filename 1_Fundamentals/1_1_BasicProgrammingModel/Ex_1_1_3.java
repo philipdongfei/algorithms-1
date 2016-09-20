@@ -1,5 +1,3 @@
-package ch_1_1;
-
 /**
  * 1.1.3 Write a program that takes three integer command-line arguments and prints
  * equal if all three are equal, and not equal otherwise.

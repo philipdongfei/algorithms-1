@@ -1,5 +1,3 @@
-package ch_1_1;
-
 /**
  * 1.1.5 Write a code fragment that prints true if the double variables x and y are both
  * strictly between 0 and 1 and false otherwise.

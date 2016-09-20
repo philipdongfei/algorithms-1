@@ -1,5 +1,3 @@
-package ch_1_1;
-
 /**
  * 1.1.2 Give the type and value of each of the following expressions:
  * a. (1 + 2.236)/2

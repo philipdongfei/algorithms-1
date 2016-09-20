@@ -1,5 +1,3 @@
-package ch_1_1;
-
 /**
  * 1.1.17 Criticize the following recursive function:
  * public static String exR2(int n)

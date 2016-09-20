@@ -1,5 +1,3 @@
-package ch_1_1;
-
 /**
  * 1.1.12 What does the following code fragment print?
  * int[] a = new int[10];

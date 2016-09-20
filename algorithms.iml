@@ -4,6 +4,11 @@
     <exclude-output />
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/1_Fundamentals/1_1_BasicProgrammingModel" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/1_Fundamentals/1_2_DataAbstraction" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/1_Fundamentals/1_3_Bags_Queues_and_Stacks" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/1_Fundamentals/1_4_AnalysisOfAlgorithms" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/1_Fundamentals/1_5_CaseStudy_Union-Find" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

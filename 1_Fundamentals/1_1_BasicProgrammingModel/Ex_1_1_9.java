@@ -1,5 +1,3 @@
-package ch_1_1;
-
 /**
  * 1.1.9 Write a code fragment that puts the binary representation of a positive integer N
  * into a String s .

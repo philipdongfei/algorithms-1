@@ -1,5 +1,3 @@
-package ch_1_1;
-
 /**
  * 1.1.4 What (if anything) is wrong with each of the following statements?
  * a.

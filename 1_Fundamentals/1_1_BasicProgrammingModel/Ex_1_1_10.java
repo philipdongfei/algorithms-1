@@ -1,5 +1,3 @@
-package ch_1_1;
-
 /**
  * 1.1.10 What is wrong with the following code fragment?
  * int[] a;

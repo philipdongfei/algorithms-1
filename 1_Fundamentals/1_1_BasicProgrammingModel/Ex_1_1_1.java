@@ -1,5 +1,3 @@
-package ch_1_1;
-
 /**
  * 1.1.1 Give the value of each of the following expressions:
  * a. ( 0 + 15 ) / 2

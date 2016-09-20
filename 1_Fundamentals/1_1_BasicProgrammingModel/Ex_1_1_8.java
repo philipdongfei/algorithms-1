@@ -1,5 +1,3 @@
-package ch_1_1;
-
 /**
  * 1.1.8 What do each of the following print?
  * a. System.out.println('b');

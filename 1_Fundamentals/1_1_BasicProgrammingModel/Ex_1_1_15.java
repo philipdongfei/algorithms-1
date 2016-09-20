@@ -1,5 +1,3 @@
-package ch_1_1;
-
 /**
  * 1.1.15 Write a static method histogram() that takes an array a[] of int values and
  * an integer M as arguments and returns an array of length M whose i th entry is the num-
