@@ -60,7 +60,13 @@ public class Ex_1_1_33 {
     }
 
     static double[][] transpose(double[][] a) {
-        throw new NotImplementedException();
+        double[][] result = new double[a[0].length][a.length];
+        for (int i=0; i<a.length; i++) {
+            for (int j=0; j<a[0].length; j++) {
+                result[j][i] = a[i][j];
+            }
+        }
+        return result;
     }
 
     static double[] mult(double[][] a, double[] x) {
@@ -103,6 +109,15 @@ public class Ex_1_1_33 {
             }
         }
 
+        double[][] transposedA = transpose(a);
+        double[][] expectedTransposedA = new double[][] {{1.0, 3.0, 5.0},{2.0, 4.0, 6.0}};
+        for (int i=0; i<transposedA.length; i++) {
+            for (int j=0; j<transposedA[0].length; j++) {
+                if (transposedA[i][j] != expectedTransposedA[i][j]) {
+                    StdOut.println("something wrong after transpose for i=" + i + " j=" + j);
+                }
+            }
+        }
      }
 
 }
