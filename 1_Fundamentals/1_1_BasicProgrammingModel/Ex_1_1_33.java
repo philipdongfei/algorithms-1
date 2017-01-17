@@ -55,8 +55,20 @@ public class Ex_1_1_33 {
         return a.length != b[0].length;
     }
 
+    private static boolean checkMatrixVector(double[][] matrix, double[] vector) {
+        return vector.length != matrix[0].length;
+    }
+
+    private static boolean checkVectorMatrix(double[] vector, double[][] matrix) {
+        return vector.length != matrix.length;
+    }
+
     private static boolean isEmpty(double[][] matrix) {
         return matrix == null || matrix.length < 1 || matrix[0].length < 1;
+    }
+
+    private static boolean isEmpty(double[] vector) {
+        return vector == null || vector.length < 1;
     }
 
     static double[][] transpose(double[][] a) {
@@ -70,11 +82,33 @@ public class Ex_1_1_33 {
     }
 
     static double[] mult(double[][] a, double[] x) {
-        throw new NotImplementedException();
+        if (isEmpty(a) || isEmpty(x) || checkMatrixVector(a, x)) {
+            throw new IllegalArgumentException("wrong input");
+        }
+        double[] result = new double[a.length];
+        for (int i=0; i<result.length; i++) {
+            double sum = 0.0;
+            for (int j=0; j<x.length; j++) {
+                sum += a[i][j] * x[j];
+            }
+            result[i] = sum;
+        }
+        return result;
     }
 
     static double[] mult(double[] y, double[][] a) {
-        throw new NotImplementedException();
+        if (isEmpty(a) || isEmpty(y) || checkVectorMatrix(y, a)) {
+            throw new IllegalArgumentException("wrong input");
+        }
+        double[] result = new double[a[0].length];
+        for (int i=0; i<result.length; i++) {
+            double sum = 0.0;
+            for (int j=0; j<y.length; j++) {
+                sum += a[j][i] * y[j];
+            }
+            result[i] = sum;
+        }
+        return result;
     }
 
     public static void main(String[] args) {
@@ -116,6 +150,28 @@ public class Ex_1_1_33 {
                 if (transposedA[i][j] != expectedTransposedA[i][j]) {
                     StdOut.println("something wrong after transpose for i=" + i + " j=" + j);
                 }
+            }
+        }
+
+        double[] vector = new double[] {1, 2, 3};
+        double[][] matrix = new double[][] {{1, 2, 3}, {4, 5, 6}};
+        double[] expectedResult = new double[] {14, 32};
+        double[] result = mult(matrix, vector);
+        for (int i=0; i<result.length; i++) {
+            StdOut.print(result[i] + " ");
+            if (expectedResult[i] != result[i]) {
+                StdOut.println("something went wrong for i = " + i);
+            }
+        }
+        StdOut.println();
+
+        vector = new double[] {1, 2};
+        expectedResult = new double[] {9, 12, 15};
+        result = mult(vector, matrix);
+        for (int i=0; i<result.length; i++) {
+            StdOut.print(result[i] + " ");
+            if (expectedResult[i] != result[i]) {
+                StdOut.println("something went wrong for i = " + i);
             }
         }
      }
