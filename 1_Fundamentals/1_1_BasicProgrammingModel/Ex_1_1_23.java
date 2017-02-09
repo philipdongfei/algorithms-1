@@ -9,6 +9,8 @@ import java.util.Arrays;
  * 1.1.23 Add to the BinarySearch test client the ability to respond to a second argu-
  * ment: + to print numbers from standard input that are not in the whitelist, - to print
  * numbers that are in the whitelist.
+ *
+ * @author <a href="mailto:piotr@piotrovski.com">Piotr Piotrowski</a>
  */
 public class Ex_1_1_23 {
 

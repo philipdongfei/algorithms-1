@@ -2,6 +2,8 @@ import edu.princeton.cs.algs4.StdOut;
 
 /**
  * 1.1.20 Write a recursive static method that computes the value of ln (N !)
+ *
+ * @author <a href="mailto:piotr@piotrovski.com">Piotr Piotrowski</a>
  */
 public class Ex_1_1_20 {
 

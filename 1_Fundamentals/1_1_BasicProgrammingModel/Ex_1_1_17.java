@@ -8,6 +8,8 @@
  * }
  * Answer : The base case will never be reached. A call to exR2(3) will result in calls to
  * exR2(0) , exR2(-3) , exR3(-6) , and so forth until a StackOverflowError occurs.
+ *
+ * @author <a href="mailto:piotr@piotrovski.com">Piotr Piotrowski</a>
  */
 public class Ex_1_1_17 {
 

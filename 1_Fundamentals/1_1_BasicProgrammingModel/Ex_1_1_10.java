@@ -5,6 +5,8 @@
  * a[i] = i * i;
  * Solution: It does not allocate memory for a[] with new . This code results in a
  * variable a might not have been initialized compile-time error.
+ *
+ * @author <a href="mailto:piotr@piotrovski.com">Piotr Piotrowski</a>
  */
 public class Ex_1_1_10 {
 

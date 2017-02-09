@@ -8,6 +8,8 @@
  * if a > b { c = 0; }
  * if (a > b) c = 0;
  * if (a > b) c = 0 else b = 0;
+ *
+ * @author <a href="mailto:piotr@piotrovski.com">Piotr Piotrowski</a>
  */
 public class Ex_1_1_4 {
 

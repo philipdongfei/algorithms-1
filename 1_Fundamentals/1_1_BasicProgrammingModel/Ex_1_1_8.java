@@ -4,6 +4,8 @@
  * b. System.out.println('b' + 'c');
  * c. System.out.println((char) ('a' + 4));
  * Explain each outcome.
+ *
+ * @author <a href="mailto:piotr@piotrovski.com">Piotr Piotrowski</a>
  */
 public class Ex_1_1_8 {
 

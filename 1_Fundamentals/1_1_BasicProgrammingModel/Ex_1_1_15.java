@@ -3,7 +3,9 @@
  * an integer M as arguments and returns an array of length M whose i th entry is the num-
  * ber of times the integer i appeared in the argument array. If the values in a[] are all
  * between 0 and M–1 , the sum of the values in the returned array should be equal to
- * a.length .
+ * a.length.
+ *
+ * @author <a href="mailto:piotr@piotrovski.com">Piotr Piotrowski</a>
  */
 public class Ex_1_1_15 {
 

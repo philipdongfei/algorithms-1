@@ -11,6 +11,8 @@ import edu.princeton.cs.algs4.StdOut;
  *
  * to compute binomial(100, 50).
  * Develop a better implementation that is based on saving computed values in array.
+ *
+ * @author <a href="mailto:piotr@piotrovski.com">Piotr Piotrowski</a>
  */
 public class Ex_1_1_27 {
 

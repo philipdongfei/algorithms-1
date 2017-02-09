@@ -5,6 +5,8 @@ import edu.princeton.cs.algs4.StdOut;
  * Write a code fragment that
  * creates an N-by-N boolean array a[][] such that a[i][j] is true
  * if i and j are relatively prime (have no common factors), and false otherwise.
+ *
+ * @author <a href="mailto:piotr@piotrovski.com">Piotr Piotrowski</a>
  */
 public class Ex_1_1_30 {
 

@@ -7,6 +7,8 @@
  * String s = "";
  * for (int n = N; n > 0; n /= 2)
  * s = (n % 2) + s;
+ *
+ * @author <a href="mailto:piotr@piotrovski.com">Piotr Piotrowski</a>
  */
 public class Ex_1_1_9 {
 

@@ -10,6 +10,8 @@ import edu.princeton.cs.algs4.StdOut;
  * f = f + g;
  * g = f - g;
  * }
+ *
+ * @author <a href="mailto:piotr@piotrovski.com">Piotr Piotrowski</a>
  */
 public class Ex_1_1_6 {
 

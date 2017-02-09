@@ -12,6 +12,8 @@ import sun.reflect.generics.reflectiveObjects.NotImplementedException;
  *  static double[] mult(double[] y, double[][] a) vector-matrix product
  *
  *  Develop a test client that reads values from standard input and tests all the methods.
+ *
+ * @author <a href="mailto:piotr@piotrovski.com">Piotr Piotrowski</a>
  */
 public class Ex_1_1_33 {
 

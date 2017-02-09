@@ -13,6 +13,8 @@ import java.util.Arrays;
  *
  * Note : If i and j are the values returned by rank(key, a) and count(key, a) respectively,
  * then a[i..i+j-1] are the values in the array that are equal to key
+ *
+ * @author <a href="mailto:piotr@piotrovski.com">Piotr Piotrowski</a>
  */
 public class Ex_1_1_29 {
 

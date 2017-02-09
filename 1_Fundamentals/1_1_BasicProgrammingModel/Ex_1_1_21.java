@@ -7,6 +7,8 @@ import edu.princeton.cs.algs4.StdOut;
  * the names, the integers, and the result of dividing the first by the second, accurate to
  * three decimal places. You could use a program like this to tabulate batting averages for
  * baseball players or grades for students.
+ *
+ * @author <a href="mailto:piotr@piotrovski.com">Piotr Piotrowski</a>
  */
 public class Ex_1_1_21 {
 

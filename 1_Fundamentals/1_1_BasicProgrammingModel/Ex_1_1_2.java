@@ -4,6 +4,8 @@
  * b. 1 + 2 + 3 + 4.0
  * c. 4.1 >= 4
  * d. 1 + 2 + "3"
+ *
+ * @author <a href="mailto:piotr@piotrovski.com">Piotr Piotrowski</a>
  */
 public class Ex_1_1_2 {
     public static void main(String[] args) {

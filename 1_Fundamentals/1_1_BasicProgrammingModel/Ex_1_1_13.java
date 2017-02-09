@@ -1,6 +1,8 @@
 /**
  * 1.1.13 Write a code fragment to print the transposition (rows and columns changed)
  * of a two-dimensional array with M rows and N columns.
+ *
+ * @author <a href="mailto:piotr@piotrovski.com">Piotr Piotrowski</a>
  */
 public class Ex_1_1_13 {
 

@@ -4,6 +4,8 @@
  * b. 2.0e-6 * 100000000.1
  * c.
  * true && false || true && true
+ *
+ * @author <a href="mailto:piotr@piotrovski.com">Piotr Piotrowski</a>
  */
 public class Ex_1_1_1 {
     public static void main(String[] args) {

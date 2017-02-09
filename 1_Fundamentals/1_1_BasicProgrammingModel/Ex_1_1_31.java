@@ -12,6 +12,8 @@ import java.awt.*;
  * plots N equally spaced dots of size .05 on the circumference of a circle,
  * and then,
  * with probability p for each pair of points, draws a gray line connecting them.
+ *
+ * @author <a href="mailto:piotr@piotrovski.com">Piotr Piotrowski</a>
  */
 public class Ex_1_1_31 {
 

@@ -11,7 +11,9 @@ import edu.princeton.cs.algs4.StdOut;
  * }
  * What are the values of mystery(2, 25) and mystery(3, 11) ? Given positive integers
  * a and b , describe what value mystery(a, b) computes. Answer the same question, but
- * replace + with * and replace return 0 with return 1 .
+ * replace + with * and replace return 0 with return 1.
+ *
+ * @author <a href="mailto:piotr@piotrovski.com">Piotr Piotrowski</a>
  */
 public class Ex_1_1_18 {
 

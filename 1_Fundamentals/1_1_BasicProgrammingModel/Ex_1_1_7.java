@@ -19,6 +19,8 @@ import edu.princeton.cs.algs4.StdOut;
  * for (int j = 0; j < N; j++)
  * sum++;
  * StdOut.println(sum);
+ *
+ * @author <a href="mailto:piotr@piotrovski.com">Piotr Piotrowski</a>
  */
 public class Ex_1_1_7 {
 

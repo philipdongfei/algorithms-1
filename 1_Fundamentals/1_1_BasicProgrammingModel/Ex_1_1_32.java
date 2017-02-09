@@ -8,6 +8,8 @@ import edu.princeton.cs.algs4.StdStats;
  * Write a program that takes an integer N and two double values l and r from the command line
  * and uses StdDraw to plot a histogram of the count of the numbers in the standard input stream
  * that fall in each of the N intervals defined by dividing (l , r) into N equal-sized intervals.
+ *
+ * @author <a href="mailto:piotr@piotrovski.com">Piotr Piotrowski</a>
  */
 public class Ex_1_1_32 {
 

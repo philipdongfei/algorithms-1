@@ -7,6 +7,8 @@
  * a[i] = a[a[i]];
  * for (int i = 0; i < 10; i++)
  * System.out.println(i);
+ *
+ * @author <a href="mailto:piotr@piotrovski.com">Piotr Piotrowski</a>
  */
 public class Ex_1_1_12 {
 

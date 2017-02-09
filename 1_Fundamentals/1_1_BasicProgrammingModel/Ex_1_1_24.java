@@ -7,6 +7,8 @@ import edu.princeton.cs.algs4.In;
  * line and computes their greatest common divisor, printing out the two arguments for
  * each call on the recursive method. Use your program to compute the greatest common
  * divisor or 1111111 and 1234567.
+ *
+ * @author <a href="mailto:piotr@piotrovski.com">Piotr Piotrowski</a>
  */
 public class Ex_1_1_24 {
 

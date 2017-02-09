@@ -8,6 +8,8 @@ import edu.princeton.cs.algs4.StdOut;
  * if (a > b) { t = a; a = b; b = t; }
  * if (a > c) { t = a; a = c; c = t; }
  * if (b > c) { t = b; b = c; c = t; }
+ *
+ * @author <a href="mailto:piotr@piotrovski.com">Piotr Piotrowski</a>
  */
 public class Ex_1_1_26 {
     public static void main(String[] args) {

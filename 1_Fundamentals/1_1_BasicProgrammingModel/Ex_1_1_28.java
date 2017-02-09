@@ -7,6 +7,8 @@ import java.util.Arrays;
 /**
  * 1.1.28 Remove duplicates.
  * Modify the test client in BinarySearch to remove any duplicate keys in the whitelist after the sort.
+ *
+ * @author <a href="mailto:piotr@piotrovski.com">Piotr Piotrowski</a>
  */
 public class Ex_1_1_28 {
 
