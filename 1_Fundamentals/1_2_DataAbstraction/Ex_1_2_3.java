@@ -33,6 +33,8 @@ public class Ex_1_2_3 {
                 if (new Interval2D(interval1DSX[i], interval1DSY[i]).intersects(new Interval2D(interval1DSX[j], interval1DSY[j]))) {
                     intersect.increment();
                 }
+            }
+            for (int j=0; j<N; j++) {
                 if (interval1DSX[i].min() < interval1DSX[j].min()
                         && interval1DSY[i].min() < interval1DSY[j].min()
                         && interval1DSX[i].max() > interval1DSX[j].max()
