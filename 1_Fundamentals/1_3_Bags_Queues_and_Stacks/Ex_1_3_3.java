@@ -16,6 +16,7 @@
  * @author <a href="mailto:piotr@piotrovski.com">Piotr Piotrowski</a>
  */
 public class Ex_1_3_3 {
-    public static void main(String[] args) {
-    }
+    // b / 0 1
+    // f
+    // g
 }
