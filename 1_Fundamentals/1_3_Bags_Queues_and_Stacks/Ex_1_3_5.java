@@ -1,3 +1,6 @@
+import edu.princeton.cs.algs4.Stack;
+import edu.princeton.cs.algs4.StdOut;
+
 /**
  * 1.3.5
  * What does the following code fragment print when N is 50?
@@ -18,6 +21,16 @@
 public class Ex_1_3_5 {
 
     public static void main(String[] args) {
+        Stack<Integer> stack = new Stack<>();
+        int N = 50;
+        while (N > 0) {
+            stack.push(N%2);
+            N = N/2;
+        }
+        for(int d : stack) {
+            StdOut.print(d);
+        }
+        StdOut.println();
     }
 
 }
