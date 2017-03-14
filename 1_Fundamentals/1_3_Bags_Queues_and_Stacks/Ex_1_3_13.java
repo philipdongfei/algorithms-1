@@ -13,7 +13,8 @@
  */
 public class Ex_1_3_13 {
 
-    public static void main(String[] args) {
-    }
+    // b
+    // c
+    // d
 
 }
