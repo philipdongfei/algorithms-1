@@ -11,6 +11,38 @@
 public class Ex_1_2_10 {
 
     public static void main(String[] args) {
+
+    }
+
+}
+
+class VisualCounter {
+
+    private final int N;
+    private final int max;
+    private final String name;
+    private int count = 0;
+
+    public VisualCounter(String name, int N, int max) {
+        this.N = N;
+        this.max = max;
+        this.name = name;
+    }
+
+    public void increment() {
+        count++;
+    }
+
+    public void decrement(){
+        count--;
+    }
+
+    public int tally() {
+        return count;
+    }
+
+    public String toString() {
+        return count + " " + name;
     }
 
 }

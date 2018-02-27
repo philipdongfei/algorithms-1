@@ -24,12 +24,14 @@ public class Ex_1_3_4 {
 class Parentheses {
 
     static boolean test(String stringToTest) {
-        FixedCapacityStackOfStrings s = new FixedCapacityStackOfStrings(stringToTest.length());
+        FixedCapacityStackOfStrings s = new FixedCapacityStackOfStrings(
+                stringToTest.length());
         String currentCharacter;
         String previousCharacter = "";
         for (int i = 0; i < stringToTest.length(); i++) {
             currentCharacter = "" + stringToTest.charAt(i);
-            if (!"".equals(previousCharacter) && reverse(previousCharacter).equals(currentCharacter)) {
+            if (!"".equals(previousCharacter) && reverse(previousCharacter)
+                    .equals(currentCharacter)) {
                 s.pop();
                 if (!s.isEmpty()) {
                     previousCharacter = s.pop();
